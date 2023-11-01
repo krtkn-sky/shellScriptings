@@ -5,6 +5,8 @@ then
 	echo "Usage -> $0 [file]"
 fi
 
+#Using awk command to pipeline some basic data
+
 OWNER=`ls -la $1 | awk '{print $3}'`
 SIZE=`ls -la $1 | awk '{print $5}'`
 DATE=`ls -la $1 | awk '{print $6 " " $7}'`
