@@ -1,0 +1,2 @@
+PS1='\[\e]0;${debian_chroot:+($debian_chroot)}\[\e[32;1m\]\u@\h\[\e[0m\]: \[\e[34;1m\]\W\[\e[0m\]$ '
+
