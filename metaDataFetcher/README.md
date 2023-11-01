@@ -1,4 +1,4 @@
-# Script Name
+# metaDataFetcher
 
 ## Description
 
@@ -9,7 +9,7 @@ This script takes a file as an argument and outputs information about the file, 
 To execute the script, run the following command in the terminal:
 
 ```bash
-./script_name.sh file_name
+./fetchMetaData.sh file_name
 ```
 
 where "script_name.sh" is the name of the script and "file_name" is the name of the file to be analyzed.
